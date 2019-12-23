@@ -1,25 +1,27 @@
 
 .home{
-	text-align: center;
-	font-weight: bold;
 	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
 }
 
 .buttonPanel, .display{
-	width: 700px;
 	margin-left: auto ;
   margin-right: auto ;
+	width: 700px;
 }
 
 .display{
 	background-color: #868595;
-	height: 100px;
-	color: white;
-	font-weight: bold;
-	padding: 5px;
-	text-align: right;
-	box-sizing: border-box;
 	border: 1px solid black;
+	box-sizing: border-box;
+	color: #ffffff;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 15px;
+	padding-top: 30px;
+	height: 100px;
+	text-align: right;
 }
 
 .group1, .group2, .group3, .group4, .group5{
