@@ -6,7 +6,7 @@ class Display extends React.Component {
 	}
 	render() {
 		return (
-			<div></div>
+			<div className='display'> display </div>
 		)
 	}
 }
