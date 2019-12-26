@@ -6,7 +6,10 @@ class Button extends React.Component {
 	}
 	render() {
 		return(
-			<div  wide={ true } ></div>
+	<button className= {this.props.name === '0' ? 'col-md-6': 'col-md-3'} style=
+	{{ backgroundColor: this.props.bg ? '#fe8e05': '#EEE' }}
+	
+	>{this.props.name}</button>
 		);
 	}
 }

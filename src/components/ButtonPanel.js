@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 class ButtonPanel extends React.Component{
 	constructor(props) {
@@ -9,33 +10,33 @@ class ButtonPanel extends React.Component{
 		return(
 			<div className='buttonPanel'>
 				<div className="row group1">
-					<button className='col-md-3'> AC </button>
-					<button className='col-md-3'> +/- </button>
-					<button className='col-md-3'> % </button>
-					<button className='col-md-3 orange'> + </button>
+					<Button name={'AC'} />  
+					<Button name={'+/-'} /> 
+					<Button name={'%'} /> 
+					<Button name={'/'}  bg={true}/> 
 				</div>
 				<div className="row group2">
-					<button className='col-md-3'> 7 </button>
-					<button className='col-md-3'> 8 </button>
-					<button className='col-md-3'> 9 </button>
-					<button className='col-md-3 orange'> X </button>
+					<Button name={'7'} />  
+					<Button name={'8'} /> 
+					<Button name={'9'} /> 
+					<Button name={'X'}  bg={true}/> 
 				</div>
 				<div className="row group3">
-					<button className='col-md-3'> 4 </button>
-					<button className='col-md-3'> 5 </button>
-					<button className='col-md-3'> 6 </button>
-					<button className='col-md-3 orange'> - </button>
+					<Button name={'4'} />  
+					<Button name={'5'} /> 
+					<Button name={'6'} /> 
+					<Button name={'-'} bg={true}/> 
 				</div>
 				<div className="row group4">
-					<button className='col-md-3'> 1 </button>
-					<button className='col-md-3'> 2 </button>
-					<button className='col-md-3'> 3 </button>
-					<button className='col-md-3 orange'> + </button>
+					<Button name={'1'} />  
+					<Button name={'2'} /> 
+					<Button name={'3'} /> 
+					<Button name={'+'} bg={true}/> 
 				</div>
 				<div className="row group5">
-					<button className='col-md-6'> 0 </button>
-					<button className='col-md-3'> . </button>
-					<button className='col-md-3 orange'> = </button>
+					<Button name={'0'} />  
+					<Button name={'.'} /> 
+					<Button name={'='} bg={true}/>  
 				</div>
 			</div>
 		)
