@@ -1,4 +1,5 @@
 /* eslint-disable react/button-has-type */
+/* eslint-disable indent, no-tabs */
 
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -6,8 +7,8 @@ import PropTypes from 'prop-types';
 function Button({ name, color, wide }) {
   Button.propTypes = {
     name: PropTypes.string.isRequired,
-    color: PropTypes.string.isRequired,
-		wide: PropTypes.bool.isRequired
+  	color: PropTypes.string.isRequired,
+		wide: PropTypes.bool.isRequired,
   };
 
   return (
