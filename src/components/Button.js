@@ -1,5 +1,5 @@
 /* eslint-disable react/button-has-type */
-/* eslint-disable indent, no-tabs */
+/* eslint-disable indent, no-tabs, no-mixed-spaces-and-tabs */
 
 import React from 'react';
 import PropTypes from 'prop-types';
