@@ -3,7 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Button({ name, bg }) {
+function Button({ name, color, wide }) {
   Button.propTypes = {
     name: PropTypes.string.isRequired,
     bg: PropTypes.string.isRequired,
@@ -12,8 +12,8 @@ function Button({ name, bg }) {
   return (
     <button
       type="button"
-      className={name === '0' ? 'col-md-6' : 'col-md-3'}
-      style={{ backgroundColor: bg ? '#fe8e05' : '#EEE' }}
+      className={wide ? 'col-md-6' : 'col-md-3'}
+      style={{ backgroundColor: color ? '#fe8e05' : '#EEE' }}
     >
       {name}
     </button>
