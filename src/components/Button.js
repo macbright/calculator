@@ -1,10 +1,9 @@
 /* eslint-disable react/button-has-type */
-/* eslint-disable react/destructuring-assignment */
 
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Button(props) {
+function Button({ name, bg }) {
   Button.propTypes = {
     name: PropTypes.string.isRequired,
     bg: PropTypes.string.isRequired,
@@ -12,10 +11,11 @@ function Button(props) {
 
   return (
     <button
-      className={props.name === '0' ? 'col-md-6' : 'col-md-3'}
-      style={{ backgroundColor: props.bg ? '#fe8e05' : '#EEE' }}
+      type="button"
+      className={name === '0' ? 'col-md-6' : 'col-md-3'}
+      style={{ backgroundColor: bg ? '#fe8e05' : '#EEE' }}
     >
-      {props.name }
+      {name}
     </button>
   );
 }
