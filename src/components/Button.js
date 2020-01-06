@@ -6,7 +6,8 @@ import PropTypes from 'prop-types';
 function Button({ name, color, wide }) {
   Button.propTypes = {
     name: PropTypes.string.isRequired,
-    bg: PropTypes.string.isRequired,
+    color: PropTypes.string.isRequired,
+		wide: PropTypes.bool.isRequired
   };
 
   return (
