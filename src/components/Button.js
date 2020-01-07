@@ -1,21 +1,23 @@
 /* eslint-disable react/button-has-type */
-/* eslint-disable react/destructuring-assignment */
+/* eslint-disable indent, no-tabs, no-mixed-spaces-and-tabs */
 
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Button(props) {
+function Button({ name, color, wide }) {
   Button.propTypes = {
     name: PropTypes.string.isRequired,
-    bg: PropTypes.string.isRequired,
+  	color: PropTypes.string.isRequired,
+		wide: PropTypes.bool.isRequired,
   };
 
   return (
     <button
-      className={props.name === '0' ? 'col-md-6' : 'col-md-3'}
-      style={{ backgroundColor: props.bg ? '#fe8e05' : '#EEE' }}
+      type="button"
+      className={wide ? 'col-md-6' : 'col-md-3'}
+      style={{ backgroundColor: color ? '#fe8e05' : '#EEE' }}
     >
-      {props.name }
+      {name}
     </button>
   );
 }

@@ -10,7 +10,7 @@ function Display(props) {
   return (
     <div className="display">
       {' '}
-      {props.result || 0}
+      {props.result || '0'}
       {' '}
     </div>
   );
