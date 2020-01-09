@@ -1,7 +1,10 @@
-import Big from "big.js";
+/* eslint-disable  prefer-template  */
 
-import operate from "./operate";
-import isNumber from "./isNumber";
+
+import Big from 'big';
+
+import operate from './operate';
+import isNumber from './isNumber';
 
 /**
  * Given a button name and a calculator data object, return an updated
@@ -85,10 +88,10 @@ export default function calculate(obj, buttonName) {
         next: null,
         operation: null,
       };
-    } else {
-      // '=' with no operation, nothing to do
-      return {};
     }
+    // '=' with no operation, nothing to do
+    return {};
+    
   }
 
   if (buttonName === '+/-') {
@@ -131,4 +134,4 @@ export default function calculate(obj, buttonName) {
     next: null,
     operation: buttonName,
   };
-}
+};

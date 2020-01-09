@@ -1,4 +1,4 @@
-/* eslint-disable react/prefer-stateless-function */
+/* eslint-disable react/prefer-stateless-function, no-unused-vars */
 
 import React from 'react';
 import '../App.css';
