@@ -40,7 +40,7 @@ function ButtonPanel({ clickHandler }) {
     </div>
   );
 }
-Button.propTypes = {
+ButtonPanel.propTypes = {
 		clickHandler: PropTypes.func,
   };
 

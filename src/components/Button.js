@@ -8,7 +8,7 @@ function Button({ name, color, wide, clickHandler }) {
 	const handleClick = () => {
     clickHandler(name);
   };
-	
+
   return (
     <button
       type="button"
