@@ -47,7 +47,7 @@ You will also see any lint errors in the console.
 
 ## Live Demo
 
-The demo page can be found [HERE]()
+The demo page can be found [HERE](https://r-calculator.herokuapp.com/)
 
 ## Designed and developed by
 
