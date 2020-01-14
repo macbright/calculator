@@ -3,17 +3,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Display(props) {
-  Display.propTypes = {
-    result: PropTypes.string.isRequired,
-  };
+function Display({ result }) {
   return (
     <div className="display">
       {' '}
-      {props.result || '0'}
+      {result || '0'}
       {' '}
     </div>
   );
 }
+
+Display.propTypes = {
+    result: PropTypes.string,
+  };
 
 export default Display;
