@@ -74,6 +74,8 @@ You will also see any lint errors in the console.
 - Twitter: [@b_okike](https://twitter.com/b_okike)
 
 
+## Future Features
+1. add additional calculating ability that performs more complex Math functions. 
 
 
 ## Contributing
